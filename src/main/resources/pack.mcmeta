@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "<MOD> resources",
+    "pack_format": ${pack_version}
+  }
+}
