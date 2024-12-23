@@ -3,8 +3,8 @@
   "id": "charmony-chairs",
   "version": "${mod_version}",
 
-  "name": "<NAME>",
-  "description": "<DESCRIPTION>",
+  "name": "Chairs",
+  "description": "Sit down on stair blocks.",
   "authors": [
     "svenhjol"
   ],
