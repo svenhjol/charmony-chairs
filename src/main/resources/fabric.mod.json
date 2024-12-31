@@ -19,6 +19,9 @@
     ],
     "client": [
         "svenhjol.charmony.chairs.client.ClientInitializer"
+    ],
+    "modmenu": [
+        "svenhjol.charmony.chairs.integration.ModMenuPlugin"
     ]
   },
 
