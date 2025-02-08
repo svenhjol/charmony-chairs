@@ -1,6 +1,5 @@
 package svenhjol.charmony.chairs.common.features.chairs;
 
-import svenhjol.charmony.chairs.ChairsMod;
 import svenhjol.charmony.core.annotations.FeatureDefinition;
 import svenhjol.charmony.core.base.Mod;
 import svenhjol.charmony.core.base.SidedFeature;
@@ -25,6 +24,6 @@ public final class Chairs extends SidedFeature {
     }
 
     public static Chairs feature() {
-        return ChairsMod.instance().sidedFeature(Chairs.class);
+        return Mod.getSidedFeature(Chairs.class);
     }
 }
