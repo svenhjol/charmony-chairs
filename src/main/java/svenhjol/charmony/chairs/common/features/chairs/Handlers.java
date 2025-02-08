@@ -4,7 +4,6 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.tags.FluidTags;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.world.entity.MoverType;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.StairBlock;
@@ -47,7 +46,7 @@ public final class Handlers extends Setup<Chairs> {
                 var result = player.startRiding(chair);
                 log().dev("Player is now riding");
                 if (result) {
-                    player.move(MoverType.PLAYER, chair.position());
+                    player.snapTo(chair.position());
                     player.setPos(chair.getX(), chair.getY(), chair.getZ());
                     log().dev("Moved player to chair pos");
                 }
