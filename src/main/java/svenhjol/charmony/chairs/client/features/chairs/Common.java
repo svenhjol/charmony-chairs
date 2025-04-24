@@ -3,7 +3,7 @@ package svenhjol.charmony.chairs.client.features.chairs;
 import svenhjol.charmony.chairs.common.features.chairs.Chairs;
 import svenhjol.charmony.chairs.common.features.chairs.Registers;
 
-public final class Common {
+public class Common {
     public final Registers registers;
 
     public Common() {

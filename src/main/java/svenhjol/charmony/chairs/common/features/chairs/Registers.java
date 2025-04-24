@@ -8,7 +8,7 @@ import svenhjol.charmony.core.common.CommonRegistry;
 
 import java.util.function.Supplier;
 
-public final class Registers extends Setup<Chairs> {
+public class Registers extends Setup<Chairs> {
     public final Supplier<EntityType<Chair>> entity;
 
     public Registers(Chairs feature) {

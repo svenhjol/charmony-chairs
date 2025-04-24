@@ -5,10 +5,10 @@
       "id": "minecraft:blackstone_stairs"
     },
     "title": {
-      "translate": "advancements.charmony.chairs.title"
+      "translate": "advancements.charmony-chairs.chairs.title"
     },
     "description": {
-      "translate": "advancements.charmony.chairs.description"
+      "translate": "advancements.charmony-chairs.chairs.description"
     },
     "frame": "task",
     "show_toast": false,

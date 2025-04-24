@@ -14,7 +14,7 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.Vec3;
 import svenhjol.charmony.core.base.Setup;
 
-public final class Handlers extends Setup<Chairs> {
+public class Handlers extends Setup<Chairs> {
     public Handlers(Chairs feature) {
         super(feature);
     }
