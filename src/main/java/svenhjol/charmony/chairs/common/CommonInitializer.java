@@ -3,7 +3,7 @@ package svenhjol.charmony.chairs.common;
 import net.fabricmc.api.ModInitializer;
 import svenhjol.charmony.chairs.ChairsMod;
 import svenhjol.charmony.chairs.common.features.chairs.Chairs;
-import svenhjol.charmony.core.enums.Side;
+import svenhjol.charmony.api.core.Side;
 
 public final class CommonInitializer implements ModInitializer {
     @Override
