@@ -1,14 +1,14 @@
 {
-  "parent": "charmony-chairs:root",
+  "parent": "charmony:root",
   "display": {
     "icon": {
       "id": "minecraft:pale_oak_stairs"
     },
     "title": {
-      "translate": "advancements.charmony-chairs.sat_on_chair.title"
+      "translate": "advancements.charmony.sat_on_chair.title"
     },
     "description": {
-      "translate": "advancements.charmony-chairs.sat_on_chair.description"
+      "translate": "advancements.charmony.sat_on_chair.description"
     },
     "frame": "goal",
     "show_toast": true,
